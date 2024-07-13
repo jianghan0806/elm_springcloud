@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: eureka-server
+  datasource:
+    url: jdbc:mysql://localhost:3306/elm_jpa
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+
+server:
+  port: 8761
+
+eureka:
+  server:
+    enable-self-preservation: false
+    wait-time-in-ms-when-sync-empty: 0
+    renewalPercentThreshold: 0.49
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  instance:
+    leaseRenewalIntervalInSeconds: 30

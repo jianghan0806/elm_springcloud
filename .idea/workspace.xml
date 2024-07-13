@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df2a019b-f93f-4b05-86f4-af7f414199f3" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/business-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-service/src/main/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-service/src/main/docker/business-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-service/src/main/java/edu/ynu/ls/businessservice/BusinessFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-service/src/main/java/edu/ynu/ls/businessservice/BusinessServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-service/src/main/java/edu/ynu/ls/businessservice/controller/BusinessController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-service/src/main/java/edu/ynu/ls/businessservice/dao/IBusinessDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-service/src/main/java/edu/ynu/ls/businessservice/impl/BusinessServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-service/src/main/java/edu/ynu/ls/businessservice/service/IBusinessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-service/src/test/java/edu/ynu/ls/businessservice/BusinessServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-service/src/main/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-service/src/main/docker/cart-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/edu/ynu/ls/cartservice/CartFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/edu/ynu/ls/cartservice/CartServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/edu/ynu/ls/cartservice/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/edu/ynu/ls/cartservice/dao/ICartDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/edu/ynu/ls/cartservice/impl/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-service/src/main/java/edu/ynu/ls/cartservice/service/ICartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart-service/src/test/java/edu/ynu/ls/cartservice/CartServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/docker/common-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/edu/ynu/ls/common/CommonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/edu/ynu/ls/common/pojo/Business.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/edu/ynu/ls/common/pojo/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/edu/ynu/ls/common/pojo/DeliveryAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/edu/ynu/ls/common/pojo/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/edu/ynu/ls/common/pojo/OrderDetailet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/edu/ynu/ls/common/pojo/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/edu/ynu/ls/common/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/test/java/edu/ynu/ls/common/CommonApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deliveryaddress-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deliveryaddress-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deliveryaddress-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deliveryaddress-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deliveryaddress-service/src/main/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deliveryaddress-service/src/main/docker/deliveryaddress-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deliveryaddress-service/src/main/java/edu/ynu/ls/deliveryaddressservice/DeliveryAddressFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deliveryaddress-service/src/main/java/edu/ynu/ls/deliveryaddressservice/DeliveryaddressServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deliveryaddress-service/src/main/java/edu/ynu/ls/deliveryaddressservice/controller/DeliveryAddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deliveryaddress-service/src/main/java/edu/ynu/ls/deliveryaddressservice/dao/IDeliveryAddressDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deliveryaddress-service/src/main/java/edu/ynu/ls/deliveryaddressservice/impl/DeliveryAddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deliveryaddress-service/src/main/java/edu/ynu/ls/deliveryaddressservice/service/IDeliveryAddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deliveryaddress-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deliveryaddress-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deliveryaddress-service/src/test/java/edu/ynu/ls/deliveryaddressservice/DeliveryaddressServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/docker/eureka-server-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/edu/ynu/ls/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/test/java/edu/ynu/ls/eurekaserver/EurekaServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/docker/food-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/ynu/ls/foodservice/FoodFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/ynu/ls/foodservice/FoodServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/ynu/ls/foodservice/controller/FoodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/ynu/ls/foodservice/dao/IFoodDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/ynu/ls/foodservice/impl/FoodServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/edu/ynu/ls/foodservice/service/IFoodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/test/java/edu/ynu/ls/foodservice/FoodServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/docker/gateway-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/edu/ynu/ls/gatewayservice/FallbackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/edu/ynu/ls/gatewayservice/GatewayServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/java/edu/ynu/ls/gatewayservice/TokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/test/java/edu/ynu/ls/gatewayservice/GatewayServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/docker/order-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/edu/ynu/ls/orderservice/OrderServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/edu/ynu/ls/orderservice/OrdersFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/edu/ynu/ls/orderservice/controller/OrdersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/edu/ynu/ls/orderservice/dao/IOrdersDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/edu/ynu/ls/orderservice/impl/OrdersServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/edu/ynu/ls/orderservice/service/IOrdersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/test/java/edu/ynu/ls/orderservice/OrderServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orderdetailet-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orderdetailet-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orderdetailet-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orderdetailet-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orderdetailet-service/src/main/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orderdetailet-service/src/main/docker/orderdetailet-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orderdetailet-service/src/main/java/edu/ynu/ls/orderdetailetservice/OrderDetailetFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orderdetailet-service/src/main/java/edu/ynu/ls/orderdetailetservice/OrderdetailetServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orderdetailet-service/src/main/java/edu/ynu/ls/orderdetailetservice/controller/OrderDetailetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orderdetailet-service/src/main/java/edu/ynu/ls/orderdetailetservice/dao/IOrderDetailetDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orderdetailet-service/src/main/java/edu/ynu/ls/orderdetailetservice/impl/OrderDetailetServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orderdetailet-service/src/main/java/edu/ynu/ls/orderdetailetservice/service/IOrderDetailetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orderdetailet-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orderdetailet-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orderdetailet-service/src/test/java/edu/ynu/ls/orderdetailetservice/OrderdetailetServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/docker/user-service.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/edu/ynu/ls/userservice/UserFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/edu/ynu/ls/userservice/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/edu/ynu/ls/userservice/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/edu/ynu/ls/userservice/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/edu/ynu/ls/userservice/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/edu/ynu/ls/userservice/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/edu/ynu/ls/userservice/util/AuthenticationInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/edu/ynu/ls/userservice/util/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/edu/ynu/ls/userservice/util/WebMvcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/test/java/edu/ynu/ls/userservice/UserServiceApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2j6oENze6oMS95ivFSdaaKhsesd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/jaemins/111/elm",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "show.migrate.to.gradle.popup": "false",
+    "spring.configuration.checksum": "9f7101b24b9856e2d74026b19d0692fd",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\jaemins\111\elm\cart-service\src" />
+      <recent name="D:\jaemins\111\elm\cart-service" />
+      <recent name="D:\jaemins\111\elm\user-service\src\main\resources" />
+      <recent name="D:\jaemins\111\elm\orderdetailet-service\src\main\resources" />
+      <recent name="D:\jaemins\111\elm\order-service\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\jaemins\111\elm\deliveryaddress-service\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.ynu.ls.userservice" />
+      <recent name="edu.ynu.ls.orderservice" />
+      <recent name="edu.ynu.ls.foodservice" />
+      <recent name="edu.ynu.ls.deliveryaddressservice" />
+      <recent name="edu.ynu.ls.cartservice" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="BusinessServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="business-service (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.ynu.ls.businessservice.BusinessServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusinessServiceApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="business-service (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.ynu.ls.businessservice.BusinessServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cart-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.ynu.ls.cartservice.CartServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.ynu.ls.common.CommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeliveryaddressServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="deliveryaddress-service (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.ynu.ls.deliveryaddressservice.DeliveryaddressServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeliveryaddressServiceApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="deliveryaddress-service (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.ynu.ls.deliveryaddressservice.DeliveryaddressServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.ynu.ls.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FoodServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="food-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.ynu.ls.foodservice.FoodServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.ynu.ls.gatewayservice.GatewayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.ynu.ls.orderservice.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderdetailetServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="orderdetailet-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.ynu.ls.orderdetailetservice.OrderdetailetServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.ynu.ls.userservice.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/vue_learn/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OrderdetailetServiceApplication (1)" />
+        <item itemvalue="Spring Boot.GatewayServiceApplication" />
+        <item itemvalue="Spring Boot.BusinessServiceApplication (2)" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="df2a019b-f93f-4b05-86f4-af7f414199f3" name="更改" comment="" />
+      <created>1720716776332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720716776332</updated>
+      <workItem from="1720716777402" duration="4294000" />
+      <workItem from="1720800594318" duration="17167000" />
+      <workItem from="1720821136833" duration="4034000" />
+      <workItem from="1720826291834" duration="2284000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

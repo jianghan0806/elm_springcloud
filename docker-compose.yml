@@ -1,0 +1,114 @@
+version: '3.8'
+
+services:
+
+  eureka-server:
+    image: eureka-server
+    container_name: eureka-server
+    environment:
+      TZ: Asia/Shanghai
+      LANG: zh_CN.UTF-8
+      LANGUAGE: zh_CN:zh
+      LC_ALL: zh_CN.UTF-8
+    ports:
+      - "8761:8761"
+
+  gateway-service:
+    build:
+      context: D:\elm\elm\gateway-service\src\main\docker
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_PROFILES_ACTIVE: prod  # Set your environment variables as needed
+    depends_on:
+      - eureka-server  # If you have other services like Eureka
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:8080/actuator/health" ]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+
+  business-service:
+    build:
+      context: D:\elm\elm\business-service\src\main\docker\Dockerfile
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    environment:
+      - TZ=Asia/Shanghai
+      - LANG=zh_CN.UTF-8
+      - LANGUAGE=zh_CN:zh
+      - LC_ALL=zh_CN.UTF-8
+
+  cart-service:
+    build:
+      context: D:\elm\elm\cart-service\src\main\docker\Dockerfile
+      dockerfile: Dockerfile
+    ports:
+      - "8082:8082"
+    environment:
+      - TZ=Asia/Shanghai
+      - LANG=zh_CN.UTF-8
+      - LANGUAGE=zh_CN:zh
+      - LC_ALL=zh_CN.UTF-8
+
+  deliveryaddress-service:
+    build:
+      context: D:\elm\elm\deliveryaddress-service\src\main\docker\Dockerfile
+      dockerfile: Dockerfile
+    ports:
+      - "8084:8084"
+    environment:
+      - TZ=Asia/Shanghai
+      - LANG=zh_CN.UTF-8
+      - LANGUAGE=zh_CN:zh
+      - LC_ALL=zh_CN.UTF-8
+
+  food-service:
+    build:
+      context: D:\elm\elm\food-service\src\main\docker\Dockerfile
+      dockerfile: Dockerfile
+    ports:
+      - "8085:8085"
+    environment:
+      - TZ=Asia/Shanghai
+      - LANG=zh_CN.UTF-8
+      - LANGUAGE=zh_CN:zh
+      - LC_ALL=zh_CN.UTF-8
+
+  order-service:
+    build:
+      context: D:\elm\elm\order-service\src\main\docker\Dockerfile
+      dockerfile: Dockerfile
+    ports:
+      - "8086:8086"
+    environment:
+      - TZ=Asia/Shanghai
+      - LANG=zh_CN.UTF-8
+      - LANGUAGE=zh_CN:zh
+      - LC_ALL=zh_CN.UTF-8
+
+  orderdetailet-service:
+    build:
+      context: D:\elm\elm\orderdetailet-service\src\main\docker\Dockerfile
+      dockerfile: Dockerfile
+    ports:
+      - "8088:8088"
+    environment:
+      - TZ=Asia/Shanghai
+      - LANG=zh_CN.UTF-8
+      - LANGUAGE=zh_CN:zh
+      - LC_ALL=zh_CN.UTF-8
+
+  user-service:
+    build:
+      context: D:\elm\elm\user-service\src\main\docker\Dockerfile
+      dockerfile: Dockerfile
+    ports:
+      - "8089:8089"
+    environment:
+      - TZ=Asia/Shanghai
+      - LANG=zh_CN.UTF-8
+      - LANGUAGE=zh_CN:zh
+      - LC_ALL=zh_CN.UTF-8
